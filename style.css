@@ -1,0 +1,74 @@
+/*common css start*/
+body
+/*common css end*/
+
+/*header start*/
+header{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+.wrapper{}
+.logo{
+    width: 10%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 55%;
+    float: right;
+}
+.menu ul{
+    float: right;
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    padding: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#0F2656 ;
+}
+.menu ul li:last-child a{
+   padding-right: 0;
+}
+.menu ul li a:hover{
+    color: #008AFF;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    padding: 70px 0;
+}
+.wrapper2{
+    margin: 0 auto;
+    width: 60%;
+}
+.b_content{
+    text-align: center;
+}
+.b_h1{
+    font-size: 60px;
+    margin: 0;
+}
+.b_span{ 
+    color:#008AFF ;
+}
+.b_text{
+    font-size: 18px;
+}
+.b_img{
+    margin: 0 auto;
+    width: 80%;
+}
+.b_img img{
+    width: 100%;
+    transition: .3s ;
+}
+.b_img img:hover{
+    transform: scale(.8);
+}
+/*banner end*/
